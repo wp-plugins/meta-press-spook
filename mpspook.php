@@ -9,7 +9,7 @@ Plugin Name: Meta-Press Spook
 Plugin URI: http://meldroc.com/#
 Description: By ingeniously stealing the code of the Hello Dolly plugin by Matt Mullenweg, I've created a diabolical way to increase the workload of NSA employees who are illegally conductiong warrantless surveillance of our Internet traffic.  Inspired by the Meta-X spook program that comes with Emacs.
 Author: Doug Holland, stealing from Matt Mullenweg
-Version: trunk
+Version: 1.0
 Author URI: http://meldroc.com/
 */
 
