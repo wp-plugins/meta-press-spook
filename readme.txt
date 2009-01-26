@@ -4,7 +4,7 @@ Donate link: http://meldroc.com/
 Tags: sidebar, widget
 Requires at least: 2.0.2
 Tested up to: 2.7
-Stable tag: trunk
+Stable tag: 1.0
 
 Sidebar widget filled with random subversive words designed to create more work for you friendly national electronic surveillance agency.
 
