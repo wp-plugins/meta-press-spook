@@ -2,14 +2,14 @@
 /**
  * @package Meta_Press_Spook
  * @author Doug Holland, borrowing from Matt Mullenweg's Hello Dolly plugin.
- * @version 1.0.1
+ * @version 1.0.2
  */
 /*
 Plugin Name: Meta-Press Spook
 Plugin URI: http://meldroc.com/#
 Description: By ingeniously stealing the code of the Hello Dolly plugin by Matt Mullenweg, I've created a diabolical way to increase the workload of NSA employees who are illegally conductiong warrantless surveillance of our Internet traffic.  Inspired by the Meta-X spook program that comes with Emacs.
 Author: Doug Holland, stealing from Matt Mullenweg
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://meldroc.com/
 */
 

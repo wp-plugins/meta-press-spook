@@ -4,9 +4,9 @@ Donate link: http://meldroc.com/
 Tags: sidebar, widget
 Requires at least: 2.0.2
 Tested up to: 2.7
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
-Sidebar widget filled with random subversive words designed to create more work for you friendly national electronic surveillance agency.
+Sidebar widget filled with random subversive words designed to create more work for your friendly national electronic surveillance agency.
 
 == Description ==
 
@@ -32,4 +32,6 @@ Maybe.  They're not telling.
 
 Probably.  But they're not telling.  Just smile and wave at the nice NSA agent!
 
+== Screenshots ==
 
+1. Meta-Press Spook in action, attracting .gov traffic to your blog...
