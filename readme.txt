@@ -1,10 +1,10 @@
-=== Plugin Name ===
+=== Meta-Press Spook ===
 Contributors: meldroc
 Donate link: http://meldroc.com/
 Tags: sidebar, widget
 Requires at least: 2.0.2
 Tested up to: 2.7
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Sidebar widget filled with random subversive words designed to create more work for you friendly national electronic surveillance agency.
 
@@ -24,11 +24,12 @@ Code is flagrantly borrowed from the original Hello Dolly plugin.  I also borrow
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Won't this get me in trouble with three-letter agencies? =
 
-An answer to that question.
+Maybe.  They're not telling.
 
-= What about foo bar? =
+= Isn't the NSA smart enough to filter out Meta-Press Spook's keyword spamming with their data-mining systems? =
 
-Answer to foo bar dilemma.
+Probably.  But they're not telling.  Just smile and wave at the nice NSA agent!
+
 
