@@ -2,14 +2,14 @@
 /**
  * @package Meta_Press_Spook
  * @author Doug Holland, borrowing from Matt Mullenweg's Hello Dolly plugin.
- * @version 1.0.2
+ * @version 1.0.3
  */
 /*
 Plugin Name: Meta-Press Spook
 Plugin URI: http://meldroc.com/#
 Description: By ingeniously stealing the code of the Hello Dolly plugin by Matt Mullenweg, I've created a diabolical way to increase the workload of NSA employees who are illegally conductiong warrantless surveillance of our Internet traffic.  Inspired by the Meta-X spook program that comes with Emacs.
 Author: Doug Holland, stealing from Matt Mullenweg
-Version: 1.0.2
+Version: 1.0.3
 Author URI: http://meldroc.com/
 */
 
@@ -67,6 +67,7 @@ Barack Obama's Blackberry
 Berlin 
 Bhinderanwala Tiger Force 
 Black September 
+Blackwater
 Brigate Rosse 
 Bush crimes
 CIA 
@@ -75,11 +76,13 @@ CNDD
 CNRM 
 CNRT 
 Catholic Reaction Force 
+Center for Peace and Justice
 Cheney an accessory
 China 
 Chukaku-Ha 
 Clinton 
 Cocaine 
+Code Pink
 Communist 
 Conseil 
 Cuba 
@@ -101,6 +104,7 @@ Eiffel Tower
 Ejercito Popular Boricua 
 Ejercito Popular Revolucionario 
 Ellalan Force 
+Erik Prince
 Eritrean 
 Euzkadi Ta Askatasuna 
 FALINA 
@@ -122,10 +126,13 @@ GRAPO
 George Bush 
 George W Bush 
 Gerakin Aceh Merdeka 
+Green Party
 Grey Wolves 
+Halliburton
 HAMAS 
 Harakat ul-Ansar 
 Hawari 
+Henry David Thoreau
 Hitler 
 Hizb-i Wahdat 
 Hizb-i-Islami 
@@ -140,15 +147,18 @@ Interahamwe
 Iparretarrak 
 Islamic 
 Israel 
+IWW
 JKLF 
 Jamaat ul-Fuqra 
 Jamat-e-Islami 
 Jamiat-e-Ahl-e-Hadees 
+KBR detention camps
 KGB 
 KKK 
 Kach 
 Kahane Chai 
 Kashmir 
+Kellogg, Brown and Root
 Kennedy 
 Khaddafi 
 Khalistan 
@@ -175,8 +185,10 @@ MNLF
 Macheteros 
 Macheteros 
 Mafia 
+Mahatma Gandhi
 Maktab al-Khidamat 
 Manuel Rodriguez 
+Martin Luther King Jr.
 Marxist 
 Maubere Resistance 
 Mayi-Mayi 
@@ -190,6 +202,7 @@ Mujahedin-e Khalq
 Myanmar 
 New York Times
 NORAD 
+NPSD 51
 NSA 
 Navy 
 Nazi 
@@ -207,6 +220,7 @@ Pakistan
 Panama 
 Pearl Harbor 
 Peking 
+Pentagon
 Provos 
 Qaddafi 
 RC5 
@@ -250,6 +264,7 @@ Uzi
 Valerie Plame
 Van Eck phreaking
 Waco 
+Western Hemisphere Institute for Security Cooperation
 White House 
 World Trade Center 
 Zapatistas 
@@ -259,6 +274,7 @@ al-Gama'at al-Islamiyya
 al-Jihad 
 al-Qa'ida 
 algorithm 
+agent provocateur
 amatol 
 ambush 
 ambush 
@@ -267,6 +283,7 @@ ammunition
 anonymous 
 anonymous source
 anti-tank 
+anti-war
 archives 
 armada 
 armor 
@@ -280,6 +297,7 @@ assault
 atomic bomb 
 bank account 
 biological 
+black bloc
 blowfish 
 bomb 
 bomb 
@@ -292,6 +310,7 @@ charcoal
 chemical 
 child pornography 
 chinese 
+civil disobedience
 class struggle 
 claymore 
 cocaine 
@@ -321,6 +340,7 @@ detcord
 detonate 
 detonators 
 dictionary 
+direct action
 disruption 
 divers 
 doctrine 
@@ -406,6 +426,7 @@ napalm
 nationalist 
 nitric acid 
 nitrocellulose 
+non-violence
 nuclear 
 oppressed 
 orthodox 
@@ -426,6 +447,7 @@ primers
 private key 
 promised anonymity
 propaganda 
+protest
 psyops 
 public key 
 publishing tomorrow
@@ -455,6 +477,7 @@ secure
 security 
 sequence 
 shaped charge 
+sit-in
 smallpox 
 smuggle 
 sniper 
@@ -487,6 +510,7 @@ uranium
 virus 
 warfare 
 warrant 
+waterboarding
 weapons 
 white noise generator 
 whistleblower
@@ -501,7 +525,6 @@ zenith
 	return wptexturize( $lyrics[ mt_rand(0, count($lyrics) - 1) ] );
 }
 
-// This just echoes the chosen line, we'll position it later
 function spook_widget() {
 	$spookfodder = "";
 	for($i=0; $i<15; $i++) {
@@ -510,25 +533,6 @@ function spook_widget() {
 	}
 	echo "<h2>Hello to our NSA friends!</h2>$spookfodder";
 }
-
-// Now we set that function up to execute when the admin_footer action is called
-//add_action('admin_footer', 'hello_dolly');
-
-// We need some CSS to position the paragraph
-//function dolly_css() {
-//	echo "
-//	<style type='text/css'>
-//	#dolly {
-//		position: absolute;
-//		top: 4.5em;
-//		margin: 0;
-//		padding: 0;
-//		right: 215px;
-//		font-size: 11px;
-//	}
-//	</style>
-//	";
-//}
 
 function init_spook() {
 	register_sidebar_widget("Meta-Press Spook", spook_widget);
